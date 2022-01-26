@@ -1,0 +1,9 @@
+FROM node:12.17.0-alpine
+WORKDIR /product-challenge-api
+COPY package.json ./
+COPY tsconfig.json ./
+COPY src ./src
+RUN ls -a
+RUN npm install
+EXPOSE 4041
+CMD ["npm","run","dev"]

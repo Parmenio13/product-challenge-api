@@ -1,0 +1,30 @@
+{
+  "name": "product-challenge-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^13.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.7",
+    "@types/morgan": "^1.9.3",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
